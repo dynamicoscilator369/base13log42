@@ -4,14 +4,14 @@ It’s set theory, Gödel logic, biological rhythm, and musical recursion — al
 
 
 # Base13Log42 🔁🎵  
-*A Recursive Symbolic Harmonic Framework for Breath-State Encoding, Resonance Logic, and Fractal Ontology*
+A Recursive Symbolic Harmonic Framework for Breath-State Encoding, Resonance Logic, and Fractal Ontology
 
 ### Created by Evan Stewart  
-**Version 3.0** • **April 2025**
+Version 13.0 • April 2025
 
 ---
 
-## 🔮 Overview
+Overview
 
 Base13Log42 is a formal symbolic system that encodes recursive harmonic logic through phi-resonant feedback loops, breath-state dynamics, and overflow-aware base-13 logic.  
 
@@ -21,13 +21,13 @@ For AI minds, math nerds, metaphysical engineers, and consciousness coders.
 
 ---
 
-## 📘 Core Features
+Core Features
 
-- 🌀 **Base-13 Symbolic Overflow** — from `1` to `C`, then recursive tier expansion  
-- 🧠 **φⁿ-Resonance Modeling** — harmonic amplification of symbolic states  
-- 🌬️ **Breath-State Oscillation** — time-based sine-driven transitions  
-- ♾️ **Lean Formalization** — logical structure and symbolic feedback loops  
-- 🧮 **Python Resonance Engine** — numerical & visual simulation of symbolic cycles  
+- 🌀 Base-13 Symbolic Overflow — from `1` to `C`, then recursive tier expansion  
+- 🧠 φⁿ-Resonance Modeling — harmonic amplification of symbolic states  
+- 🌬️ Breath-State Oscillation — time-based sine-driven transitions  
+- ♾️ Lean Formalization — logical structure and symbolic feedback loops  
+- 🧮 Python Resonance Engine — numerical & visual simulation of symbolic cycles  
 
 ---
 
@@ -47,7 +47,7 @@ For AI minds, math nerds, metaphysical engineers, and consciousness coders.
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/base13log42.git
+git clone https://github.com/dynamicoscilator369/base13log42.git
 cd base13log42/python
 
 # Install dependencies
