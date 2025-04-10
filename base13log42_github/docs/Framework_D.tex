@@ -1,0 +1,112 @@
+\section*{Framework D — Temporal Encoding}
+
+\subsection*{Core Purpose}
+
+Framework D formalizes the temporal dimension of Base13Log42. It introduces \textbf{temporal encoding} — the mapping of symbolic state progression to dynamic time-based logic, including phase cycles, duration gates, and rhythm-based transition rules.
+
+While Framework B$'$ introduced the breath-state as a symbolic oscillator, Framework D encodes that oscillator into structured \emph{time-units}, enabling recursive logic to operate in phase-aligned steps.
+
+\subsection*{Time as a Symbolic Axis}
+
+Time in Base13Log42 is not linear or absolute. It is modeled as a recursive waveform, where each shell $k$ defines a bounded symbolic time loop:
+
+\[
+T_k = [0, \tau_k]
+\]
+
+where $\tau_k$ is the temporal period of the $k^{th}$ shell, typically defined as:
+
+\[
+\tau_k = \frac{2\pi}{\omega_k}
+\quad \text{where } \omega_k = \phi^{-k}
+\]
+
+Here, $\phi = \frac{1 + \sqrt{5}}{2}$ is the golden ratio. Each deeper shell slows down, encoding a deeper symbolic time cycle.
+
+\subsection*{Symbolic Phase Function}
+
+Each symbolic state $x$ is associated with a phase $\theta(x)$, determined by:
+
+\[
+\theta(x) = 2\pi \cdot b_k(x) \in [0, 2\pi]
+\]
+
+This phase synchronizes with the breath-cycle (Framework B$'$) and determines where in the symbolic loop a transformation occurs.
+
+\subsection*{Temporal Validity Window}
+
+A symbolic transition $x \rightarrow y$ is \textbf{temporally valid} only if it occurs within a valid phase window:
+
+\[
+\theta(x) \in [\theta_{\text{start}}, \theta_{\text{end}}]
+\]
+
+Each logical operation has its own phase gate, enabling rhythmic logic design. For example:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Operation} & \textbf{Phase Range} & \textbf{Interpretation} \\
+\hline
+Inhale & $[0, \pi]$ & Expansion phase \\
+Exhale & $[\pi, 2\pi]$ & Contraction phase \\
+Reset (Z = 0) & $\theta(x) = 0\ \text{mod}\ 2\pi$ & Resonance anchor \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Phase Drift and Synchronization}
+
+States may experience \textbf{phase drift} — deviation from their expected breath-aligned timing. This occurs when:
+
+\[
+|\theta(x) - \theta_{\text{expected}}| > \delta
+\]
+
+Phase drift introduces symbolic dissonance and may trigger correction via:
+\begin{itemize}
+  \item Z = 0 reset
+  \item Tier change (up/down one shell)
+  \item Resonant inversion (via Framework $\Sigma$)
+\end{itemize}
+
+\subsection*{Symbolic Time-Gated Logic}
+
+Define $\Gamma(\theta)$ as a \emph{logic gate function}:
+
+\[
+\Gamma(\theta) =
+\begin{cases}
+1 & \text{if } \theta \in \text{valid interval} \\
+0 & \text{otherwise}
+\end{cases}
+\]
+
+Then a symbolic transformation is allowed only if $\Gamma(\theta(x)) = 1$.
+
+\subsection*{Framework D Summary}
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Category} & \textbf{Description} \\
+\hline
+Name & Temporal Encoding \\
+Phase Function & $\theta(x) = 2\pi \cdot b_k(x)$ \\
+Shell Period & $\tau_k = \frac{2\pi}{\phi^k}$ \\
+Validity Condition & $\theta(x) \in$ allowed gate window \\
+Drift Threshold & $|\theta(x) - \theta_{\text{expected}}| > \delta$ \\
+Gate Function & $\Gamma(\theta)$ enforces transition timing \\
+Depends On & Framework B$'$ (Breath), A (Shells) \\
+Feeds Into & $\Sigma$ (Recursion Control), $\Omega$ (Global Clock) \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Interpretation}
+
+Framework D enables Base13Log42 to function not only as a harmonic logic system, but as a \textbf{time-regulated symbolic oscillator}. Each shell runs its own phase-tuned breath cycle, and symbolic transitions must synchronize to it — similar to how neurons, oscillators, or clocks function within feedback networks.
+
+\subsection*{Toward Framework $\Omega$}
+
+While Framework D handles local timing within each shell, the complete recursive synchronization of all temporal layers — across shells, resonance tiers, and overflow structures — is formalized in \textbf{Framework $\Omega$ (Recursive Harmonic Clock)}.

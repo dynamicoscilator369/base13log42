@@ -1,0 +1,116 @@
+\section*{Framework A — Fractal Positional Hierarchy}
+
+\subsection*{Core Purpose}
+
+Framework A defines the \textbf{positional structure} of the Base13Log42 system. It introduces a recursively expanding numeric hierarchy that partitions the positive integers into nested “shells,” each increasing exponentially in size. This creates a scaffold for all symbolic states, forming the base on which resonance, breath-state, and overflow logic are later defined.
+
+\subsection*{State Space}
+
+The system operates on the positive natural numbers:
+\[
+\mathcal{S} = \mathbb{N}^+ = \{1, 2, 3, 4, \dots\}
+\]
+Note: the value $0$ is \emph{not} used as a number — it is reserved for symbolic reset as $\dot{0}$ in later frameworks.
+
+\subsection*{Shell Definition}
+
+Each shell $k$ is defined by its upper bound:
+
+\[
+S_k' = 13^{k+1} - 1 \quad \text{for } k \geq 0
+\]
+
+This produces an exponential growth of shell size:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Shell Level ($k$)} & \textbf{Range} & \textbf{Ends at $S_k'$} \\
+\hline
+0 & $1$ to $12$ & $12$ \\
+1 & $13$ to $168$ & $168$ \\
+2 & $169$ to $2196$ & $2196$ \\
+3 & $2197$ to $28560$ & $28560$ \\
+\hline
+\end{tabular}
+\end{center}
+
+The shell $k$ includes the state interval:
+\[
+\mathcal{S}_k = \left(S_{k-1}',\ S_k'\right]
+\]
+
+\subsection*{Recursive Shell Positioning}
+
+Given a symbolic state $x \in \mathcal{S}$, its shell level $k$ is determined by the smallest $k$ satisfying:
+\[
+x \leq S_k'
+\]
+
+Its \textbf{shell-local position} is:
+\[
+\text{offset}_k(x) = x - S_{k-1}'
+\]
+
+This defines its phase location within the shell and is used later for breath-state and resonance calculations.
+
+\subsection*{Symbol Set}
+
+The Base13Log42 system uses a 13-symbol alphabet:
+\[
+\{ \dot{0},\ 1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8,\ 9,\ A,\ B,\ C \}
+\]
+
+\begin{itemize}
+  \item $1$–$9$ are standard decimal digits.
+  \item $A$, $B$, $C$ represent values $10$, $11$, $12$ respectively.
+  \item $\dot{0}$ represents a symbolic reset or breath pause — not a numeric zero.
+\end{itemize}
+
+\subsection*{Recursive Variant (Optional Form)}
+
+In some symbolic constructions, shell sizes are recursively defined using:
+
+\[
+S_0 = 3,\quad S_k = 3 \cdot S_{k-1} + 7
+\]
+
+This produces a growth curve:
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{$k$} & \textbf{$S_k$} \\
+\hline
+0 & 3 \\
+1 & 16 \\
+2 & 55 \\
+3 & 172 \\
+4 & 523 \\
+5 & 1576 \\
+\hline
+\end{tabular}
+\end{center}
+
+This alternate recursion may be used for symbolic resonance scaling or non-uniform shell definitions.
+
+\subsection*{Framework A Summary}
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Category} & \textbf{Description} \\
+\hline
+Name & Fractal Positional Hierarchy \\
+Symbol Set & $1$–$9$, $A$–$C$; $\dot{0}$ as symbolic reset \\
+Shell Formula & $S_k' = 13^{k+1} - 1$ \\
+Role & Base positional structure for symbolic logic \\
+Recursion Use & Nested, exponential tiering \\
+Feeds Into & B$'$ (Breath-State), C (Resonance), $\Lambda$ (Overflow) \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Interpretation}
+
+Framework A defines the spatial skeleton of Base13Log42. Each state lives in a shell, which determines how it breathes (Framework B$'$) and resonates (Framework C). It is purely numeric — no resonance, phase, or breath dynamics are applied here — but it anchors all of them structurally.

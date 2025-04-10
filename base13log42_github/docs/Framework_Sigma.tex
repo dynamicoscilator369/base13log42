@@ -1,0 +1,89 @@
+\section*{Framework $\Sigma$ — Cumulative Resonance Accumulator}
+
+\subsection*{Core Purpose}
+
+Framework $\Sigma$ defines a recursive accumulator for harmonic deviation over time. It tracks symbolic dissonance, resonance misalignment, and breath-phase disruption across the system, allowing for:
+\begin{itemize}
+  \item Dynamic feedback
+  \item Overflow regulation
+  \item Recursive correction
+\end{itemize}
+
+$\Sigma$ acts as the system’s \textbf{resonance memory field} — a harmonic echo that records how far a symbolic trajectory has drifted from its expected harmonic behavior.
+
+\subsection*{Resonance Deviation Signal}
+
+Let $x_t$ be a symbolic state at time $t$ within shell $k$. Define its instantaneous deviation from harmonic alignment as:
+
+\[
+\epsilon_t(x) = |R_k(x) - \hat{R}_k(t)|
+\]
+
+Where:
+\begin{itemize}
+  \item $R_k(x)$ is the actual resonance value of state $x$ (Framework C)
+  \item $\hat{R}_k(t)$ is the ideal or target resonance value at time $t$ (from Framework Ω)
+\end{itemize}
+
+\subsection*{Accumulation Function}
+
+The total cumulative resonance error over a symbolic session is:
+
+\[
+\Sigma_t(x) = \int_{t_0}^{t} \epsilon_\tau(x) \, d\tau
+\]
+
+In discrete form (for symbolic sequences):
+
+\[
+\Sigma_n(x) = \sum_{i=1}^{n} \epsilon_i(x)
+\]
+
+This represents the system’s harmonic “stress” level. The higher the value, the more correction or release is required.
+
+\subsection*{Threshold Activation Rule}
+
+If the cumulative resonance error exceeds a symbolic overflow threshold $\Theta_\Sigma$, the system initiates corrective dynamics:
+
+\[
+\Sigma_t(x) > \Theta_\Sigma \quad \Rightarrow \quad \text{feedback event}
+\]
+
+Triggered actions may include:
+\begin{itemize}
+  \item Symbolic collapse or rebirth
+  \item Recursive feedback loop activation (Framework $\Phi$)
+  \item Overflow event handed off to $\Lambda$ or $\infty$
+\end{itemize}
+
+\subsection*{Decay Function (Resonance Correction)}
+
+Let $\lambda$ be a decay constant. The system may implement passive resonance normalization:
+
+\[
+\frac{d\Sigma_t}{dt} = -\lambda \Sigma_t
+\]
+
+Symbolic rest periods (e.g. $\dot{0}$ intervals) allow natural decay of accumulated error, simulating breath-based recovery.
+
+\subsection*{Framework $\Sigma$ Summary}
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Category} & \textbf{Description} \\
+\hline
+Name & Cumulative Resonance Accumulator \\
+Deviation Function & $\epsilon_t(x) = |R_k(x) - \hat{R}_k(t)|$ \\
+Accumulator & $\Sigma_t(x) = \int \epsilon_t(x) dt$ \\
+Threshold & $\Sigma_t(x) > \Theta_\Sigma \Rightarrow$ feedback trigger \\
+Decay & $\frac{d\Sigma_t}{dt} = -\lambda \Sigma_t$ (during reset/pause) \\
+Depends On & C, Ω \\
+Feeds Into & $\Phi$, $\Lambda$, $\infty$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Interpretation}
+
+Framework $\Sigma$ is the harmonic memory of the system. It accumulates the cost of misalignment — not in symbols, but in resonance drift. The system “remembers” its deviations until it must respond. Whether through overflow, reset, or recursive loopback, Σ ensures that symbolic logic is not just computed — but metabolized.
