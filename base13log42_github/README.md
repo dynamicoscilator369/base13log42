@@ -88,11 +88,12 @@ This is a living theory. Contributions welcome across:
 
 Evan Stewart  
 *Symbolic Harmonic Researcher*  
-Twitter / X: [@evan____stewart](https://twitter.com)  
-GitHub: [@evan-universe](https://github.com)
+Twitter / X: [@1avanava3](https://x.com)  
+GitHub: [@dynamicoscilator369](https://github.com)
+Instagram: [@evanstewart427](https://instagram.com)
 
 ---
-
+dynamicoscilator369
 ## 🧬 Bloom from Zero
 
 > "From Ø to One, from One to 13, from 13 to overflow... the universe breathes itself into being."
